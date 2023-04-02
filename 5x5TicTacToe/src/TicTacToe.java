@@ -77,9 +77,11 @@ public class TicTacToe extends Application {
       return true;
     }
 
-    if (cell[0][2].getToken() == token
-        && cell[1][1].getToken() == token
-        && cell[2][0].getToken() == token) {
+    if (cell[0][4].getToken() == token
+        && cell[1][3].getToken() == token
+        && cell[2][2].getToken() == token
+        && cell[3][1].getToken() == token
+        && cell[4][0].getToken() == token) {
       return true;
     }
 
